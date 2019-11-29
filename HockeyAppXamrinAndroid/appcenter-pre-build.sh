@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+echo "${APPCENTER_SOURCE_DIRECTORY}"
+
 ANDROID_MANIFEST_FILE=${APPCENTER_SOURCE_DIRECTORY}/HockeyAppXamrinAndroid/HockeyAppXamrinAndroid/Properties/AndroidManifest.xml
 
 ANDROID_MAINACTIVITY_FILE=${APPCENTER_SOURCE_DIRECTORY}/HockeyAppXamrinAndroid/HockeyAppXamrinAndroid/MainActivity.cs
